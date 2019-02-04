@@ -1,0 +1,50 @@
+current directory: /Users/mazenswar/Development/oo-student-scraper-dumbo-web-career-012819/thout-opt-dir/gems/nokogiri-1.6.6.4/ext/nokogiri
+/Users/mazenswar/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20190203-60420-1xwkpyb.rb extconf.rb
+checking if the C compiler accepts ... yes
+checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
+Building nokogiri using packaged libraries.
+-----
+The file "/usr/include/iconv.h" is missing in your build environment,
+which means you haven't installed Xcode Command Line Tools properly.
+
+To install Command Line Tools, try running `xcode-select --install` on
+terminal and follow the instructions.  If it fails, open Xcode.app,
+select from the menu "Xcode" - "Open Developer Tool" - "More Developer
+Tools" to open the developer site, download the installer for your OS
+version and run it.
+-----
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/mazenswar/.rvm/rubies/ruby-2.3.3/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/mazenswar/Development/oo-student-scraper-dumbo-web-career-012819/thout-opt-dir/extensions/x86_64-darwin-18/2.3.0/nokogiri-1.6.6.4/mkmf.log
+
+extconf failed, exit code 1
